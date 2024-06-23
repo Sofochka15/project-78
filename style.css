@@ -4,10 +4,15 @@
     border-radius: 10px;
     border: 1px solid #e0e0e0;
     outline: none;
+    padding-left: 11px;
 }
 #mail::placeholder{
     padding-left: 11px;
     color: #9e9e9e;
+}
+#mail::placeholder:focus{
+    padding-left: 11px;
+    text-align: center;
 }
 #password {
     width: 467px;
@@ -18,6 +23,7 @@
     color: #f07272 ;
     outline: none;
     margin-top: 9px;
+    padding-left: 11px;
 }
 #password::placeholder{
     color: #f07272 ;
@@ -34,6 +40,7 @@
     color: #a8ab00 ;
     outline: none;
     margin-top: 14px;
+    padding-left: 11px;
 }
 #number::placeholder{
     color: #a8ab00 ;
@@ -51,6 +58,7 @@
     color: #f9fe03 ;
     outline: none;
     margin-top: 9px;
+    padding-left: 11px;
 }
 #text::placeholder{
     color: #f9fe03 ;
